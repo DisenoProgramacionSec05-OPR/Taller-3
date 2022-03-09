@@ -1,0 +1,49 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>320</x><y>210</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Abstrac&gt;&gt;
+Juego
+--
+Nombre
+RutaBase
+--
+CargarJuego()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>390</y><w>210</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+Tablero
+--
+Nivel
+RutaArchivo
+--
+CargaJuego()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>210</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Service Provider
+Record
+--
+Records
+--
+Record()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>390</y><w>210</w><h>80</h></coordinates><panel_attributes>Casilla
+--
+Casillas
+--
+GenerarFila()
+ReportarPosicion()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>400</y><w>110</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Service Provider&gt;&gt;
+Fantasma
+--
+Posicion
+Color
+--
+ReportarMove()
+Vulnerabilidad()
+Interaccion()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>70</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+Jugador
+--
+Nombre
+--
+IniciarJuego()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>540</y><w>120</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Service Provider&gt;&gt;
+Pacman
+--
+Color
+--
+ReportarMove()
+Vulnerabilidad()
+Interaccion()
+Poder()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>140</y><w>110</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+&lt;&lt;Interactuar&gt;&gt;
+(Composicion)</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>420</y><w>160</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>290</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>410</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>130;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>480</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>240</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+&lt;&lt;Puntaje&gt;&gt;</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element></diagram>
